@@ -13,7 +13,7 @@ telepot.api._pools = {
 telepot.api._onetime_pool_spec = (urllib3.ProxyManager, dict(proxy_url=proxy_url, num_pools=1, maxsize=1, retries=False, timeout=30))
 # end of the stuff that's only needed for free accounts
 
-bot = telepot.Bot('352125110:AAEQEDdgWB1bozSzF5jEAP73NBQxTaEEc1M')
+bot = telepot.Bot('')
 
 users = {}
 
